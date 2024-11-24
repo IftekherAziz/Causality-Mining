@@ -1,3 +1,7 @@
+Here is the updated `README.md` file reflecting the use of the Jupyter Notebook file:
+
+---
+
 ### README.md
 
 # Assignment: Causality in Data Mining
@@ -67,14 +71,8 @@ Explore causal relationships using bivariate additive noise models.
 ## Repository Structure
 
 ```plaintext
-├── solutions/
-│   ├── granger_causality.py        # Solutions for Exercise 3-1
-│   ├── multivariate_granger.py     # Solutions for Exercise 3-2
-│   ├── bivariate_models.py         # Solutions for Exercise 3-3
-│   └── utils.py                    # Helper functions for calculations
-├── data/
-│   └── chickens_eggs.csv           # Dataset for Exercise 3-1
-├── README.md                       # Overview of the assignment
+├── Exercise_Sheet_3_Solution.ipynb  # Jupyter Notebook containing all solutions
+├── README.md                        # Overview of the assignment
 ```
 
 ---
@@ -90,19 +88,14 @@ Explore causal relationships using bivariate additive noise models.
    ```bash
    pip install -r requirements.txt
    ```
-3. Run solutions:
-   - **Exercise 3-1**:
-     ```bash
-     python solutions/granger_causality.py
-     ```
-   - **Exercise 3-2**:
-     ```bash
-     python solutions/multivariate_granger.py
-     ```
-   - **Exercise 3-3**:
-     ```bash
-     python solutions/bivariate_models.py
-     ```
+3. Run the solutions:
+   Open the Jupyter Notebook in your preferred environment (e.g., Jupyter Lab or Jupyter Notebook):
+   ```bash
+   jupyter notebook Exercise_Sheet_3_Solution.ipynb
+   ```
+   - **Exercise 3-1**: Granger causality tests.
+   - **Exercise 3-2**: Multivariate Granger models.
+   - **Exercise 3-3**: Bivariate additive noise models.
 
 ---
 
